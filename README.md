@@ -1,4 +1,4 @@
-# K8s Istio Kiali Jaeger
+# K8s for Istio - Kiali - Jaeger
 
 ### Setting up infra on AWS for Istio, Kiali and Jaeger 
 
