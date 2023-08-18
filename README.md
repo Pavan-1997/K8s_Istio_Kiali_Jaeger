@@ -206,6 +206,7 @@ echo $SECURE_INGRESS_PORT
 ```
 
 27. A Load Balancer is already created in AWS you can view it from EC2 Dashboard
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/2d5551aa-e726-4ce5-b90c-edcab3c993d7)
 
 
 28. Set the egress IP and ports for Gateway (Change the INGRESS_HOST to your LB DNS name)
@@ -225,6 +226,7 @@ echo $GATEWAY_URL
 echo "http://$GATEWAY_URL/productpage"
 ```
 `Refresh the page to see the different versions of the applications deployed you will see the change in colour and no rating`
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/abd4464d-e743-46e5-b017-310ced0a5e03)
 
 
 31. All Tools Installation (Kiali & Jaeger)
