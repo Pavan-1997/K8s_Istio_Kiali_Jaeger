@@ -75,6 +75,8 @@ eksctl create cluster --name=eksdemo1 --region=us-west-1 --zones=us-west-1b,us-w
 ```
 eksctl utils associate-iam-oidc-provider --region us-west-1 --cluster eksdemo1 --approve
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/89d2ee03-226d-487f-b43a-1fdd5eee42ab)
+
 
 7. Add Nodes
 ```
