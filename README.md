@@ -87,6 +87,8 @@ eksctl create nodegroup --cluster=eksdemo1 --region=us-west-1 --name=eksdemo-ng-
 ```
 kubectl get pods -n kube-system
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/7276df9c-79af-472a-b2f3-a89d8d02cda5)
+
 
 9. Install Istio
 ```
