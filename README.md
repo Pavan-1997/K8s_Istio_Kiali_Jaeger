@@ -184,6 +184,8 @@ kubectl apply -f bookinfo-gateway.yaml
 ```
 kubectl get gateway
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/a4ac7446-b703-4e87-94b4-488369736963)
+
 
 25. Set the ingress IP and ports
 ```
