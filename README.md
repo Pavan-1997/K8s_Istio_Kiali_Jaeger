@@ -68,6 +68,8 @@ eksctl version
 ```
 eksctl create cluster --name=eksdemo1 --region=us-west-1 --zones=us-west-1b,us-west-1a --without-nodegroup
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/2bd11203-dd5b-4493-aa24-8eb21c9565c7)
+
 
 6. Add OIDC
 ```
@@ -78,6 +80,8 @@ eksctl utils associate-iam-oidc-provider --region us-west-1 --cluster eksdemo1 -
 ```
 eksctl create nodegroup --cluster=eksdemo1 --region=us-west-1 --name=eksdemo-ng-public --node-type=t2.medium --nodes=2 --nodes-min=2 --nodes-max=4 --node-volume-size=10 --ssh-access --ssh-public-key=K8S_KEY --managed --asg-access --external-dns-access --full-ecr-access --appmesh-access --alb-ingress-access
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/d649e5e5-b23d-4c9e-87da-8eee897d6b5f)
+
 
 8. Check the Pods in Kube-System namespace
 ```
@@ -108,6 +112,8 @@ istioctl install --set profile=demo -y
 ```
 kubectl get namespace
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/3bb1ddf2-3ce5-4f61-890f-c8f7dd17ee84)
+
 
 14. Check Pods created in Istio Namespace
 ```
@@ -123,6 +129,8 @@ kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.18/samp
 ```
 kubectl get pods -n default
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/8112e798-c7d6-4ada-bd5b-4e6e76aae429)
+
 
 17. Checking the services
 ```
