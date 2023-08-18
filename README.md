@@ -13,3 +13,8 @@ Istio is an open-source service mesh platform that provides a way to control how
 Kiali works with Istio in Kubernetes distributions. It visualizes the service mesh topology and provides visibility into features like request routing, circuit breakers, request rates, latency and more.
 
 In simple words, it gives the big picture of Routing/Networking.
+
+
+## Jaeger
+
+Jaeger is open source software for tracing transactions between distributed services. It’s used for monitoring and troubleshooting complex microservices environments.
