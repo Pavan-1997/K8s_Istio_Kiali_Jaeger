@@ -30,7 +30,7 @@ Problems that Jaegger addresses:-
 ---
 # Implementation
 
-1. Create the AWS EC2 linux AMI instance with t2.medium and login using username:ec2-user
+1. Create the AWS EC2 Linux AMI instance with `t2.medium` and login using `username:ec2-user`
 
 
 2. Install kubectl (For accessing PODS and K8s resources)
@@ -49,13 +49,13 @@ kubectl version
 ```
 
 3. Install eksctl (For creating the K8s cluster)
-
+```
 curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 
 sudo mv /tmp/eksctl /usr/bin
 
 eksctl version
-
+```
 
 4. Addiing IAM Role to EC2 Instance created in Step 1. for EC2 to access the AWS EKS 
 
