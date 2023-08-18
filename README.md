@@ -138,11 +138,15 @@ kubectl get pods -n default
 ```
 kubectl get service
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/fd7c7e52-aced-4f8f-a8a9-cb71dc8f09bf)
+
 
 18. Check our Product Page application is up and running 
 ```
 kubectl exec "$(kubectl get pod -l app=ratings -o jsonpath='{.items[0].metadata.name}')" -c ratings -- curl -sS productpage:9080/productpage | grep -o "<title>.*</title>"
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/64d36d58-d11e-4bfc-bf79-68a68f7c542f)
+
 
 19. Injection of Istio as an Init container (So that now 2 containers will run in every pod)
 ```
