@@ -26,3 +26,6 @@ Problems that Jaegger addresses:-
 - Root cause analysis
 - Service dependency analysis
 - Distributed context propagation
+
+---
+# Implementation
