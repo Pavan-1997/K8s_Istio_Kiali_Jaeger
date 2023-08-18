@@ -119,6 +119,8 @@ kubectl get namespace
 ```
 kubectl get pods -n istio-system
 ```
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/4654110e-6e44-4c5f-8a71-ab8bb136bd74)
+
 
 15. Deploy Application linked to Istio 
 ```
