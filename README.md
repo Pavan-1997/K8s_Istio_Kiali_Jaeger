@@ -159,7 +159,7 @@ kubectl label namespace default istio-injection=enabled
 
 20. Since every Pod in this cluster when deploying is created using Replica-set, To see the change in Conatiners from 1 to 2
 
-`We have to basically delete the Pods individually and Replica-set will do its job again by re-creating the PODS with 2 Conatiners with has now extra of the Istio side car container`
+    We have to basically delete the Pods individually and Replica-set will do its job again by re-creating the PODS with 2 Conatiners with has now extra of the Istio side car container
 ```
 kubectl delete pod <Pod1> <Pod1>
 ```
