@@ -252,7 +252,7 @@ kubectl port-forward --address 0.0.0.0 svc/kiali 9008:20001 -n istio-system
      Now hit the endpoint from Step 30. multiple times
 ![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/6a2501c5-f289-4d22-a86f-530577adefdb)
 
-![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/4b949ecb-745c-4099-8e1a-283c86862f7b)
+    ![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/4b949ecb-745c-4099-8e1a-283c86862f7b)
 
 
 
