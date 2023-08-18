@@ -266,6 +266,13 @@ kubectl port-forward --address 0.0.0.0 svc/tracing 8008:80 -n istio-system
      In Jaeger dashboard -> Select any of the Service (selecting istio-ingressgateway.istio-system) -> Click on Find Traces
 
      Click on any of the traces 
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/b6a5c64b-6b69-4fda-89dd-bb10cf0cc9cd)
+
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/10b76994-727a-482a-9972-2b28fa8c47e0)
+
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/72d753bd-c6c3-46ae-975a-ee279ee040f5)
+
+![image](https://github.com/Pavan-1997/K8s_Istio_Kiali_Jaeger/assets/32020205/4cfafb22-7b0c-404d-8b31-aa7bfe3d2ebb)
 
 
 37. Cleaning up Resources used 
