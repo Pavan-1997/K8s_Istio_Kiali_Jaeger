@@ -17,4 +17,12 @@ In simple words, it gives the big picture of Routing/Networking.
 
 ## Jaeger
 
-Jaeger is open source software for tracing transactions between distributed services. It’s used for monitoring and troubleshooting complex microservices environments.
+Jaeger is open-source software for tracing transactions between distributed services. It’s used for monitoring and troubleshooting complex microservices environments.
+
+Problems that Jaegger addresses:-
+
+- Distributed transaction monitoring
+- Performance and latency optimization
+- Root cause analysis
+- Service dependency analysis
+- Distributed context propagation
